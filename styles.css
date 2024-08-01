@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('path_to_background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.marksheet {
+    background: lightgoldenrodyellow;
+    border: 5px solid brown;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.header {
+    position: relative;
+}
+
+
+.left{
+    text-align: end;
+}
+.right{
+    text-align: start;
+}
+
+
+.table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.total, #grand-total, #total-in-words, #percentage {
+    font-weight: bold;
+}
+
+.footer {
+    margin-top: 50px;
+}
+.row {
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-collapse: collapse ;
+}
+.col-title {
+    border: 1px solid black;
+    border-collapse: collapse ;
+    font-weight: bold;
+    text-align: center;
+}
+.col-value {
+    border: 1px solid black;
+    border-collapse: collapse ;
+    text-align: center;
+}
+.size{
+    width: 120px;
+    height: 120px;
+}
